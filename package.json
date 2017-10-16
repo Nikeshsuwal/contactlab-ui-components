@@ -1,11 +1,12 @@
 {
   "name": "contactlab-ui-components",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Polymer UI components of the Contactlab Pattern Library",
   "main": "index.js",
   "scripts": {
     "start": "http-server -s -p 3000",
-    "dev": "concurrently -k \"http-server -s -p 3000\" \"webpack -w \" "
+    "dev": "concurrently -k \"http-server -s -p 3000\" \"webpack -w \" ",
+    "test": "wct"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "moment": "2.17.1",
     "rome": "2.1.22",
     "web-animations-js": "2.2.5",
+    "web-component-tester": "6.3.0",
     "webcomponents.js": "0.7.24"
   }
 }
