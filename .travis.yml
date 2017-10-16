@@ -5,7 +5,7 @@ node_js:
   - 'node'
   - '6'
 before_script:
-  - npm run webpack
+  - npm run build
   - export TZ=Europe/Rome
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start

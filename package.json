@@ -6,6 +6,7 @@
   "scripts": {
     "start": "http-server -s -p 3000",
     "dev": "concurrently -k \"http-server -s -p 3000\" \"webpack -w \" ",
+    "build": "webpack",
     "test": "wct"
   },
   "repository": {
