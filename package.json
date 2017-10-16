@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server -s -p 3000",
-    "dev": "concurrently -k \"http-server -s -p 3000\" \"webpack -w \" "
+    "dev": "concurrently -k \"http-server -s -p 3000\" \"webpack -w \" \"npm run css\" ",
+    "css": "node-sass ./_assets/scss/contactlab-pattern.scss ./_assets/css/contactlab-pattern.min.css -w"
   },
   "repository": {
     "type": "git",
@@ -17,14 +18,14 @@
   "devDependencies": {
     "concurrently": "3.4.0",
     "http-server": "0.9.0",
-    "node-sass": "4.5.0",
+    "node-sass": "4.5.3",
     "strip-loader": "0.1.2",
     "wc-loader": "1.1.4",
     "webpack": "3.0.0",
     "webpack-notifier": "1.5.0"
   },
   "dependencies": {
-    "ikonograph": "2.0.0",
+    "ikonograph": "3.1.0",
     "moment": "2.17.1",
     "rome": "2.1.22",
     "web-animations-js": "2.2.5",

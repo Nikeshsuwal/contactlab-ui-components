@@ -325,21 +325,21 @@ input[type=radio] {
 
 input[type=radio] {
 	+ label:before {
-		content: "\e960";
+		content: "\e96a";
 	}
 
 	&:checked + label:before {
-		content: "\e95f";
+		content: "\e9b7";
 	}
 }
 
 input[type=checkbox] {
 	+ label:before {
-		content: "\e916";
+		content: "\e96a";
 	}
 
 	&:checked + label:before {
-		content: "\e915";
+		content: "\e9b7";
 	}
 }
 

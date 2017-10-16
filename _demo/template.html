@@ -27,19 +27,19 @@
 
     <main class="main-content">
       <section class="icons" style="font-size: 50px">
-        <i class="clab-icon icon-play"></i>
-        <i class="clab-icon icon-pause"></i>
-        <i class="clab-icon icon-stop"></i>
-        <i class="clab-icon icon-fast-backward"></i>
-        <i class="clab-icon icon-backward"></i>
-        <i class="clab-icon icon-forward"></i>
-        <i class="clab-icon icon-fast-forward"></i>
-        <i class="clab-icon icon-equal-circle"></i>
-        <i class="clab-icon icon-equal-circle-full"></i>
-        <i class="clab-icon icon-full-arrow-top"></i>
-        <i class="clab-icon icon-full-arrow-right"></i>
-        <i class="clab-icon icon-full-arrow-down"></i>
-        <i class="clab-icon icon-full-arrow-left"></i>
+        <i class="ikn ikn-play-full"></i>
+        <i class="ikn ikn-pause-full"></i>
+        <i class="ikn ikn-stop-full"></i>
+        <i class="ikn ikn-fast-backward-full"></i>
+        <i class="ikn ikn-backward-full"></i>
+        <i class="ikn ikn-foward-full"></i>
+        <i class="ikn ikn-fast-forward-full"></i>
+        <i class="ikn ikn-equal-circle"></i>
+        <i class="ikn ikn-equal-circle-full"></i>
+        <i class="ikn ikn-arrow-top"></i>
+        <i class="ikn ikn-arrow-right"></i>
+        <i class="ikn ikn-arrow-down"></i>
+        <i class="ikn ikn-arrow-left"></i>
       </section>
       <section>
         <h2>Alerts</h2>
@@ -295,7 +295,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro expedita amet labore itaque praesentium, enim dignissimos
             nulla recusandae incidunt laboriosam inventore alias quis officia. Quod possimus unde adipisci, vero sequi?</p>
         </card-clab>
-        <card-clab link='{"text":"blabla", "href":"#/hearts"}' icon="clab-icon icon-heart-full" title="Queen of hearts">
+        <card-clab link='{"text":"blabla", "href":"#/hearts"}' icon="ikn ikn-heart-full" title="Queen of hearts">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro expedita amet labore itaque praesentium, enim dignissimos
             nulla recusandae incidunt laboriosam inventore alias quis officia. Quod possimus unde adipisci, vero sequi? With
             a link</p>
@@ -304,7 +304,7 @@
 
       <section>
         <h2>Features</h2>
-        <feature-clab icon-class="clab-icon icon-heart-full" size="small">
+        <feature-clab icon-class="ikn ikn-heart-full" size="small">
           <div class="title">Title</div>
           <div class="text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro expedita amet labore itaque praesentium, enim dignissimos
@@ -312,7 +312,7 @@
           </div>
         </feature-clab>
 
-        <feature-clab icon-class="clab-icon icon-heart-full" link="#" vertical>
+        <feature-clab icon-class="ikn ikn-heart-full" link="#" vertical>
           <div class="title">Title</div>
           <div class="text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro expedita amet labore itaque praesentium, enim dignissimos
@@ -446,13 +446,13 @@
       <section>
         <h2>Dropdown</h2>
         <dropdown-clab max-in-view="5" type="success" note-type="error" result-as-obj options='[{"label":"ciccio", "value":"ciccio"},{"label":"puzzo raga", "value":"puzzo raga"},{"label":"bella", "value":"bella"},{"label":"raga", "value":"raga"},{"label":"tutto raga", "value":"tutto raga"},{"label":"tutto rego", "value":"tutto rego"}]'
-          selected='{"label":"bella", "value":"bella"}' inline label-size="larger" icon="icon-edit">>
+          selected='{"label":"bella", "value":"bella"}' inline label-size="larger" icon="ikn-edit">>
           <span slot="note">This is my note</span>
           <span slot="button"><button-clab>ciao</button-clab></span>
         </dropdown-clab>
 
 
-        <dropdown-clab max-in-view="5" result-as-obj inline label-size="larger" icon="icon-edit">
+        <dropdown-clab max-in-view="5" result-as-obj inline label-size="larger" icon="ikn-edit">
           <span slot="note">This is my note</span>
         </dropdown-clab>
 
@@ -567,11 +567,11 @@
       <section>
         <h2>Row actions</h2>
         <div class="row-action success">
-          <a><i class="clab-icon icon-check"></i></a>
+          <a><i class="ikn ikn-check"></i></a>
         </div>
 
         <div class="row-action error">
-          <a><i class="clab-icon icon-close"></i></a>
+          <a><i class="ikn ikn-close"></i></a>
         </div>
       </section>
 
@@ -580,7 +580,7 @@
         <input-clab value="ciao" label="My label" note-type="error" type="success">
           <span slot="note">A simple input component</span>
         </input-clab>
-        <input-clab value="ciao" icon="icon-edit">
+        <input-clab value="ciao" icon="ikn-edit">
           <span slot="note">A simple input component</span>
         </input-clab>
 

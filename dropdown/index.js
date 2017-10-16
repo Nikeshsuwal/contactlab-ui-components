@@ -272,7 +272,7 @@ class DropdownClab {
   }
 
   _compIcon(icon) {
-    if(icon != undefined && icon.length > 0) return 'clab-icon ' + icon;
+    if(icon != undefined && icon.length > 0) return 'ikn ' + icon;
     else return '';
   }
 
