@@ -7,7 +7,7 @@
     "start": "http-server -s -p 3000",
     "dev": "concurrently -k \"http-server -s -p 3000\" \"webpack -w \" ",
     "build": "webpack",
-    "test": "wct"
+    "test": "wct --npm"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "node-sass": "4.5.0",
     "strip-loader": "0.1.2",
     "wc-loader": "1.1.4",
+    "web-component-tester": "6.3.0",
     "webpack": "3.0.0",
     "webpack-notifier": "1.5.0"
   },
@@ -30,7 +31,6 @@
     "moment": "2.17.1",
     "rome": "2.1.22",
     "web-animations-js": "2.2.5",
-    "web-component-tester": "6.3.0",
     "webcomponents.js": "0.7.24"
   }
 }
